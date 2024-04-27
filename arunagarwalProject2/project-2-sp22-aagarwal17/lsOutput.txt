@@ -1,0 +1,33 @@
+total 880
+drwxr-xr-x 4 aagarwal19 aagarwal19   4096 Mar 22 20:55 .
+drwxr-xr-x 7 aagarwal19 aagarwal19   4096 Mar 22 20:38 ..
+drwxr-xr-x 8 aagarwal19 aagarwal19   4096 Mar 11 21:02 .git
+-rw-r--r-- 1 aagarwal19 aagarwal19 289291 Feb 20 22:45 3207 Introduction to Developing a Linux Shell.pdf
+-rw-r--r-- 1 aagarwal19 aagarwal19 421687 Feb 20 22:45 Project 2 Developing a Linux Shell.pdf
+-rw-r--r-- 1 aagarwal19 aagarwal19   6853 Feb 20 22:45 README.md
+-rw-r--r-- 1 aagarwal19 aagarwal19    101 Mar 11 19:35 batchfile.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19    112 Mar 11 20:57 batchfile2.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19    121 Mar 11 20:57 batchfile3.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19     97 Mar 22 20:42 batchfilegiven.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19    171 Mar 11 20:59 batchfilegiven2.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19   2137 Mar 10 00:38 definitions.h
+-rw-r--r-- 1 aagarwal19 aagarwal19     25 Mar 11 20:53 input.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19   2050 Mar 22 20:40 jibberish.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19      0 Mar 22 21:08 lsOutput.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19    112 Mar 10 01:56 makefile
+-rwxr-xr-x 1 aagarwal19 aagarwal19  23104 Mar 22 19:59 myshell
+-rwxr-xr-x 1 aagarwal19 aagarwal19   1981 Mar 22 20:41 out.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19     18 Mar 22 20:59 output.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19   5188 Mar 22 20:52 output2.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19  23024 Feb 20 23:01 test
+-rw-r--r-- 1 aagarwal19 aagarwal19  20983 Mar 22 19:59 test.c
+-rwxr-xr-x 1 aagarwal19 aagarwal19   1981 Mar 22 20:40 test.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19    422 Mar 22 20:56 testdir.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19     22 Mar 22 20:56 testecho.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19   3640 Mar 22 20:56 testenviron.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19   6944 Mar 22 20:56 testhelp.txt
+drwxr-xr-x 3 aagarwal19 aagarwal19   4096 Mar 22 20:48 testing
+-rw-r--r-- 1 aagarwal19 aagarwal19      0 Mar 10 00:37 testing.c
+-rwxr-xr-x 1 aagarwal19 aagarwal19     22 Mar 11 21:01 testingecho.txt
+-rw-r--r-- 1 aagarwal19 aagarwal19      6 Mar 11 19:46 trial.txt
+-rwxr-xr-x 1 aagarwal19 aagarwal19    235 Mar 11 19:05 twomore.txt

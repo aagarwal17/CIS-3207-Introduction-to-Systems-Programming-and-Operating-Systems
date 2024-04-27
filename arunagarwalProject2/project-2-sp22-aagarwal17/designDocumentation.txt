@@ -1,0 +1,159 @@
+Arun Agarwal
+Professor Fiore
+CIS 3207-Introduction to Systems Programming and Operating Systems
+March 23rd, 2022
+
+Design Documentation of My Shell for Assignment 2 of CIS 3207
+Introduction and High-Level Overview of Design:
+For Assignment 2 of CIS 3207, we were tasked with developing and implementing our own simple Unix/Linux shell in C with various features. The shell is the heart of the command-line interface, and thus is central to the Linux/Unix/C programming environment. Mastering use of the shell is necessary to become proficient in this world; knowing how the shell itself is built is the focus of this project. I have implemented a **command line interpreter (CLI)** or, as it is more commonly known, a **shell**. The shell should operate in this basic way: when someone types in a command (in response to its prompt), the shell creates a child process that executes the command entered and then prompts the user for more user input when it has finished. 
+Through this assignment, I was focused on completing three main objectives: to further familiarize yourself with the Linux programming environment, to learn how processes are created, destroyed, and managed, and to gain exposure to the necessary functionality in shells.
+In order to execute, the user can open myshell by either typing ./myshell, which opens the program's interactive mode, or ./myshell batchfile (.txt file), which opens the batch mode. The shell is able to parse and tokenize input and execute parsed commands. My shell has two different modes of operation. The first will be when the user inputs no arguments; in this case, the program should run, taking input from standard in. This is called Interactive Mode, in which myshell will continuously take in user commands until the user type in the exit command. That is, the codes in the main function can be executed with a while loop, and the system will repeated until the user call the quit command. The second mode, called Batch Mode, will be when the user inputs a batch file argument. My program will then run the commands specified in this batch file. While in batch mode, myshell will read and execute the commands from a text file until the end of the file is reached. 
+The code for internal commands, program I/O, and file execute/read/write will be implemented using the appropriate system calls. To process user commands, the functions from string.h library are used, such as strtok() (used to tokenized the string into separate words). An implementation of sets (data structure) is used to check if the command contains members of a set of internal commands. All other commands are treated as program invocation and will be handled accordingly (using fork() and exec(). Proper error messages are displayed using the errno.h library and the stderr file descriptor.
+There are two main types of commands for this program: built-in commands and external commands. The commands I will implement as built-in (internal handling without using fork() or exec()) include cd (to change the current directory to the one inputted), clr (to clear the screen), dir (to list the contents of the inputted directory), environ (to list all environment variables), echo (to display a certain inputted comment on the terminal), help (to display the user manual), pause (to pause the shell until ‘Enter’ is pressed), and quit (to quit the shell). The commands I will implement externally from linux (like ls, echo, cat, etc.) will be executed with appropriate arguments or argument flags. These commands will require the use of exec() and fork(). 
+My shell will also be able to handle flags, which are extra arguments in the command line that change the execution. The first set of flags are for redirection: < will be used to handle input redirection (read from a file), > will be used to handle output redirection (print to a file), and >> will be used to handle output redirection (concatenate to a file). In general, redirection is being used to pass output to either a file or stream. This redirection will be accomplished through use of dup() (duplicates an open file descriptor), dup2() (replaces stdin/stdout with the file descriptor of a user specified file from the file descriptor table), open() (returns the file descriptor (int) of the opened file), and close (closes the file descriptor after being used). Other flags my shell will have implementation for include & for background execution (only goes at the end of the line, and it forces a command to run in the background), and <commandA> | <commandB> for piping (rerouting the output from commandA as the input to commandB). In general, piping is being used to pass output to another program or utility. 
+The plan I followed was to figure out how to get user input one line at a time, implement a tokenizer which will return the user input as white-space delimited tokens, implement a few of the easier built-in commands (like cd and clr and dir), implement a basic parser that will run the built-ins with the given arguments (making sure to alert the user if he has entered an invalid number of arguments for a given built-in command), and finishing the rest of the built-in commands and making sure they work as intended. I then read into fork(), exec(), execvp(), wait(), dup2(), and pipe(), and implemented external commands, redirection, and piping. 
+Some Details of Implementation:
+Next, I will provide more specific details on how my shell functions. In terms of executing, the user open the shell by typing ./myshell, which opens the program’s interactive mode, or ./myshell batchfile (a text file), which opens the batch mode. In the interactive mode, the shell will continuously take in user commands until the user types in the quit command. The prompt of myshell displays the folder the user is currently in, as requested in the instructions. In batch mode (reading from a file), the shell reads and executes the commands from the text file inputted as an argument. 
+The first internal command of my program is cd, which changes the current directory to the directory inputted as an argument. If the argument is not present, we report the current directory. If the directory does not exist, I display the error message that the instructions request we output to the user. I also change the PWD environment variable. The next internal command is clr, which as the name suggests, simply clears the screen. The dir command lists the contents of the inputted argument (or the current directory if no argument is inputted), the environ command lists all the environment strings, the echo command displays the inputted command on the terminal followed by a new line, the help command displays the user manual using the more filter, the pause command stops the shell operation until “Enter” is pressed, and the quit command simply exits out of the shell (and return the user to their original shell). Next, my shell treats all other commands as external commands, that is, as program invocation and try to execute it using fork() and exec(). The shell supports I/O redirection on either or both stdin and stdout. It is recognized by typing >, <, or >>, and is supported for both program invocation and internal commands. In terms of background execution of programs, if the user types in the ampersand sign (&) at the end of the command line, the shell immediately returns to taking in commands, while the command in the background is still being processed. The shell also implements the Unix pipe to redirect I/O. 
+To implement the program’s interactive loop, the code in the main function can be executed in a while loop, and the system is repeated until the user calls the quit command. In batch mode, the program is continuously read and execute lines of commands until the end of the file is reached. The code for internal commands, program I/O, and file execute/read/write is implemented using the appropriate system calls. To process user commands, the functions from the string.h library will be used, such as strtok() (used as shown by the TA in lab to tokenize the string into separate words). An implementation of sets may be used to check if the command contains members of a set of internal commands. All other commands are to be treated as external commands and are handled using fork() and exec(). Proper error messages are displayed basically everywhere, mainly using the errno.h library and the stderr file descriptor. Finally, to handle I/O redirection, system calls such as fork(), dup(), and dup2() are used along will the proper file descriptor. 
+My implementation has simply four parts: a makefile, my code file (called myshell.c), my readme_doc.md, and my test files. 
+Here is the setup of the makefile:
+# Arun Agarwal
+
+all: myshell
+CC = gcc
+WFLAGS = -Wall -Werror
+
+myshell: myshell.c
+    $(CC) myshell.c -o myshell $(WFLAGS)
+ 
+Since a makefile is simple enough to write, I have just written out my makefile for this project above. As one can see, I have flags for the gcc, errors, and the usual commands for the terminal to get my shell to run. With this file, I can simply write make in the terminal to compile my code. Writing ./myshell will start the shell.
+Next, I have a file called readme_doc.md, which is my main readme file for this project. It is mainly used for the help built in function that is needed to be implemented for this shell assignment. As I wrote the code for this assignment, it was filled with many details including what the project is, the goals, the setup, the different files, the functionality, and the testing plan. I have pasted a sample of how it looks like below:
+ 
+Next, in terms of my main coding file, I will provide a brief overview of my design (since my code is almost 1000 lines). I write out the libraries to include, I write the function headers at the top so that I can easily access them throughout the program, I create an array to hold the names of the build in commands as well as another to hold the names of the build in command functions, write a main function to start my shell and get the environment variables’ information, write a function to continuously prompt the user with the shell prompt, write a function to parse the command the user inputs, write a function to process the command the user inputs (such as whether they included piping, redirection, or other features), write a function for solely normal execution, write a function for solely background execution, write a function to execute redirection solely, write a function for executing a pipe solely, write a function to check for built-ins, write a function to run the built-in cd command, write a function to run the built in clr command, write a function to run the built-in dir command, write a function to run the built-in environ command, write a function to run the built-in echo command, write a function to run the built-in help command, and write a function to run the built-in pause command. 
+
+Testing Method Used and Corresponding Results:
+Moving on, I will discuss the details of my testing plan that I used. As can be seen by looking at my code, I included a very large amount of error cases in every function to test properly and also inform the reader descriptively of the mistake. There are also many print statements throughout my code for testing for errors and for helping me figure out where the errors are occurring. There are also many loops that are created to check for errors.
+Next, as mentioned earlier, I have created a testing directory to test the various built-in functions as well as some of the more interesting features like redirection. I have pasted a snippet of how this testing directory looks here:
+ 
+Beyond this, I have many (around two dozen) different text files for testing all the possible cases provided in instructions, in the discord, in class, and that I could think of on my own. One can see the list in the following picture:
+ 
+Notably, I created multiple batchfiles with the exact commands the TA/Professor said we should be able to use in this file, and I made sure everything worked as desired. Here is an example of one of the batchfiles made:
+//Arun Agarwal
+//Batchfile
+
+environ
+cd ../trialFolder
+echo hello, world! This is a test
+ls
+dir level2Folder
+quit
+
+When I was actually testing my shell to make sure it works as intended, there were various cases I typed into the shell and examined what the output was. I kept note of when an error message should have been produced and dealt with it appropriately in my code if not done so already. Here are some examples of the more simple commands I tried in my shell:
+Environ
+environ ewJLNelnre (should be error)
+environ cd ls (should be error)
+cd
+cd ..
+cd //real path as arg
+cd //fake path as arg (should output error message)
+cd multiple args (error message)
+argument then cd (should see that arg is not a real arg)
+dir
+dir //real directory
+dir //fake directory
+echo ls 
+echo normal comment
+echo used with piping
+pause with command (output error)
+pause (normally) 
+quit with parameter 
+quit
+help with arg (produce error)
+help
+clr with arg (produce error)
+clr
+cat //fake file name (error)
+cat //real file name
+redirection: try it as intended
+redirection: not correctly formatted (produce errors as needed)
+redirection: issues with inputted args (produce errors as needed)
+piping: try it as intended 
+piping: not correctly formatted (produce errors as needed)
+piping: issues with inputted args (produce errors as needed)
+make sure background execution works
+try putting ampersand at beginning and at end of command line
+
+All of these work without producing any error. I will now go on to the more advanced cases I tried.
+I first tried “sleep 10” with and without the ampersand at the end to make sure background execution was working. Since it returned right away when the ampersand was placed at the end, my background execution was functioning properly. Of course, when I do not put the ampersand at the end, the following is the output (as expected):
+ 
+Next, I received the correct output when testing ls > output.txt:
+ 
+Similarly, I achieved the correct output when running ls -la >> output.txt:
+ 
+Next, I got the correct output when running cat < output.txt > output2.txt:
+ 
+We note that what is in output.txt can just be seen from the test case above, verifying that we achieved the correct result.
+Next, when using the appending feature, cat < output.txt >> output2.txt, we got:
+ 
+The following commands requested were also able to run correctly: ls -la | grep main > output.txt, ls -la | grep rachel | grep .txt.
+I next ran a list of commands for my batchfiles. The commands and output were:
+cd ..
+echo cis3207
+touch test.txt
+ls -la | grep test
+cat < test.txt > out.txt
+ls -la >> test.txt
+ 
+Next, the command | grep should produce errors when ran because I pipe must be between two separate commands, and mine did:
+ 
+Also, the command cat myfile.txt >> should produce an error because this means that the next token should be an output file name, but there is not one specified. Mine also produced an error here:
+ 
+I next made sure that the echo command reduced multiple spaces/tabs to a single space:
+ 
+I also made sure the help printed the contents of the specified read me with the more option available:
+ 
+I next ran the following commands individually in the terminal and as a batchfile:
+help
+help > testhelp.txt
+cd demo
+dir
+dir > testdir.txt
+environ
+environ > testenviron.txt
+echo "hello testing echo"
+echo "hello testing echo" > testecho.txt
+pause
+clr
+quit
+When ran in a batchfile, the following was the output:
+   
+I next ran the line wc < input.txt to verify redirection was working appropriately:
+ 
+I also ran these commands to show that my shell can work for multiple redirection flags:
+wc < input.txt > output.txt
+ 
+wc < input.txt >> output.txt
+ 
+Next, to verify piping was working as intended, I ran echo Hello | wc:
+ 
+We note that it was initially stated that vim & should work in our shells, but The TA’s later said this command is actually not valid and should not work for our shell. Thus, this command does not function for my shell.
+I made sure that this command produced an error: ./test2 | ./test3
+ 
+I made sure this command worked: ls -la | wc:
+ 
+I also made sure this command using ping and background execution worked: ping -c 2 google.com &:
+ 
+I made sure just writing ./test2 would produce an error:
+ 
+I ran ls -la > lsOutput.txt as another check for redirection:
+ 
+I ran wc < lsOutput.txt as well for redirection testing (but mainly to make sure it worked for external commands as well):
+ 
+Finally, I made sure piping and redirection in the form P1 | & P2 would produce an error:
+ 
+Conclusions/Errors:
+In conclusion, I was able to successfully create a simple Unix/Linux shell in C with the following commands and built-in functions available only with one minor error/issue. This issue is that, in some specific cases, my shell will not explicitly write out the line prompt after executing a command, but it still functions exactly as it should. That is, everything still works, but the command prompt isn’t written for some reason. I did extensive error checking and testing and could not figure out this small bug. I did figure out that it seems to just be after using piping, redirection, and background execution in a limited number of cases. If I were to restart the shell, sometimes these commands end up running with no issue (that is, reprompting the user). However, overall, this bug is not major at all, and I felt that it was not worth the strenuous amount of time I was attempting to put in to fix it. The professor also said I would not lose points for this small error.
+The other thing that partially does not work, and I am confused whether we need to have it working, is if we need to handle redirection and piping in the same command line. The TA had said that there were certain lines that should be valid for our shell, but they included both redirection and piping. However, it explicitly states in the instructions that:
+“You can design your program so that you only have to handle redirection OR pipes in one command line, but not both. Don’t worry about mixing the “&”, redirection operators (“<” and “>”), and pipe operator “|” in the same command.”
+I also verified with the Professor that I do NOT need to have both working in the same command line. Thus, it is fine that my shell does not work when both operators are included in a few cases (I would need to do a lot more error checking to figure out why it works in most cases but not all). 

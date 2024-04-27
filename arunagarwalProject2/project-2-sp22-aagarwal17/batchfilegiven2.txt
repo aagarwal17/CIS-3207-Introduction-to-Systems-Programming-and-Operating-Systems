@@ -1,0 +1,12 @@
+help
+help > testhelp.txt
+cd demo
+dir
+dir > testdir.txt
+environ
+environ > testenviron.txt
+echo "hello testing echo"
+echo "hello testing echo" > testecho.txt
+pause
+clr
+quit

@@ -1,0 +1,11 @@
+2.txt
+testdir.txt
+tucp.c
+demo
+out.txt
+1.txt
+pic1.jpg
+3.txt
+..
+.
+tucp

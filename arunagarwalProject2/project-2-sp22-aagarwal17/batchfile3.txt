@@ -1,0 +1,6 @@
+ls > output.txt
+ls >> output.txt
+wc < input.txt
+wc < input.txt > output.txt
+wc < input.txt >> output.txt
+echo Hello | wc

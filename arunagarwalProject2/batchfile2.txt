@@ -1,0 +1,8 @@
+ls
+ls | wc
+./test2 | ./test3
+ls -la | wc
+ping -c 2 google.com &
+./test2
+ls -la > lsOutput.txt
+wc < lsOutput.txt

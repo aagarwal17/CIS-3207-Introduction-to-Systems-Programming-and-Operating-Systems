@@ -1,0 +1,6 @@
+cd ..
+echo cis3207
+touch test.txt
+ls -la | grep test
+cat < test.txt > out.txt
+ls -la >> test.txt
