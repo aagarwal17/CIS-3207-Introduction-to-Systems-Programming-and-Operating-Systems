@@ -1,0 +1,6 @@
+environ
+cd ../trialFolder
+echo hello, world! This is a test
+ls
+dir level2Folder
+quit

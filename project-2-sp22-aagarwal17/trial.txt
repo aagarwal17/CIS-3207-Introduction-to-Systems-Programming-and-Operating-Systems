@@ -1,0 +1,344 @@
+//function to process the given command line (this will be one of the main functions of my program)
+Void process(char *line)
+{
+	//function to parse the command line into an array of arguments (similar to argv)
+	Parse(line)
+	If command line empty (0 args)
+		Return;
+	//creating Booleans to switch between functions
+    Int isPipe = 0; 
+	Int isbackground = 0;
+	Int has input = 0;
+    int has output = 0;
+    int isAppend = 0; //for differentiating between ">" and ">>"
+
+    //In the shell, we should execute one command at a time, or two commands when using a pipe, so I create two commands
+    command1;
+    command2;
+
+    //Beginining line processing:
+    for (each arg in line)
+    {
+        if(finds ampersand sign, immediately invoke executeBackground() function)
+            //contents of the command line after the ampersand sign will be ignored for simplicity
+        if (finds piping sign (|))
+            //stops putting arguments into command 1 and starts putting arguments into command 2
+            set isPipe to 1;
+            while(current arg is not null)
+            {
+                continue interating through args and inputting them to command2
+            }
+            set end of command2 args to null
+            break;
+        if (finds > sign)
+            if our variable that checks number of outputl files is set to 1 or greater
+            {
+                print this shell cannot handle multiple output files
+            }
+            if file name given
+            {
+                if (no args)
+                {
+                    print error message
+                }
+                else
+                {
+                    set input/output file name using strcpy()
+                }
+            }
+        else if (finds >> sign)
+        {
+            if our variable that checks number of outputl files is set to 1 or greater
+            {
+                print this shell cannot handle multiple output files
+            }
+            if file name given
+            {
+                if (no args)
+                {
+                    print error message
+                }
+                else
+                {
+                    set input/output file name using strcpy()
+                    set int counter of isAppend to 1 to denote that this type of redirection is different than the case above
+                }
+            }
+        }    
+        else if (finds < sign)
+        {
+            if our variable that checks number of outputl files is set to 1 or greater
+            {
+                print this shell cannot handle multiple output files
+            }
+            if file name given
+            {
+                if (no args)
+                {
+                    print error message
+                }
+                else
+                {
+                    set input/output file name using strcpy()
+                }
+            }
+        }
+        else //error case mostly
+        {
+            if the function has caught any redirection, passing more arguments or commands will cause an error, except for the case: commands > file1 < file2
+                print error
+        }
+        
+    }
+    if not a pipe and not input and not output
+    {
+        command1 arg1 is NULL
+    }
+    if command1 arg0 is null
+        print error (missing or ambiguous command)
+    
+    //we now need to devide which builtin functions to call or (program execution)
+        if (isPipe)
+        {
+            if (command2 arg0 null)
+            {
+                print error (missing or ambiguous command 2)
+            }
+            else
+            {
+                executePipe(command1, command2); //function for executing the pipe
+            }
+            return;
+        }
+        else if (isBackground)
+        {
+            call function executeBackground()
+            return
+        }
+        else if (has input | has Output)
+        {
+            call executeRedirection function on (command1, inputName, outputName, isAppend)
+            reutrn;
+        }
+        else
+        {
+            //otherwise, we should execute normally
+            executeNorm(command1);
+        }
+    free the args
+    return;
+}
+
+//we now have a function to parse the line
+char **parse(char *line)
+{
+    print error in parsing if error occurs
+    //tokenize the line and pass arguments to array of strings
+    arg = strtok(line)
+    while (still more args to look at)
+    {
+        strtok on arg
+    }
+    return args;
+}
+
+//function for normal execution (no piping, redirection, mixture, etc)
+int executeNormally(char **command)
+{
+    print error message if failed to execute built in command
+
+    //Program Invocation:
+    //The pseudocode instructions says to include how you used fork and exec, and I didn't know how to write this out without using actual code, so I did just that
+     pid_t pid;
+    if ((pid = fork()) == -1)
+    {
+        fprintf(stderr, "Fork error.\n");
+        return -1;
+    }
+    else if (pid == 0)
+    {
+        if (execvp(command[0], command) != 0)
+        {
+            fprintf(stderr, "Cannot start the program.\n");
+        }
+        exit(0);
+    }
+    else
+    {
+        wait(NULL);
+    }
+    return 0;
+}
+
+//we need/have a function to execute in the background (for when the user types an ampersand)
+int executeBackground(char **command)
+{
+    print error message if failed to execute the built in command
+    //The pseudocode instructions says to include how you used fork and exec, and I didn't know how to write this out without using actual code, so I did just that
+     pid_t pid;
+    if ((pid = fork()) == -1)
+    {
+        fprintf(stderr, "Fork error.\n");
+        return -1;
+    }
+    else if (pid == 0)
+    {
+        if (execvp(command[0], command) != 0)
+        {
+            fprintf(stderr, "Cannot start the program.\n");
+        }
+        exit(0);
+    }
+    else
+    {
+        wait(NULL);
+    }
+    return 0;
+}
+
+//function to handle redirection
+int executeRedir(char **command, char *inputName, char *outputName, int isAppend)
+{
+    pid creation
+    if pid == -1
+        print error and return
+    else if //in child
+        create fdIn (file descriptor in) and fdOut (file descriptor Out)
+        call dup2(fdIn, 0)
+    close(fdIn)
+    will include error cases here (not sure what yet)
+    call dup2(fdOut, 1)
+    close(fdOut)
+    else
+    {
+        wait(NULL);
+    }
+    return;
+}
+
+//function to execute the pipe
+int executePipe(char **comand1, char **command2)
+{
+    make pid variable
+    pipe(fd)
+    if (pid equals childs)
+    {
+        close fd[0]
+        dup2(fd[1], STDOUT_FILENO) //stdout
+        print error messages as needed
+    }
+    else
+    {
+        if (pid equals child)
+        close (fd[1])
+        dup2(fd[0], STDIN_FILENO) //stdin
+        print error messages as needed
+        close(fd[0])
+    }
+    wait(NULL)
+    close(fd[0])
+    close(fd[1])
+    return
+}
+
+//I will have a helper function to check for built in functions
+int checkBuiltins(char *args)
+{
+    if finds quit
+        exit
+    if arg inputted matches arg in our list of builtin functions
+        return the index number from the list of the matches
+    otherwise, return -1 (fail)
+}
+
+//One of our built in functions is for changing directories, cd, so I will of course have a separate funciton for this:
+int execute_cd(char **args)
+{
+    print error messages if too many arguments inputted or if can not get inputted directory
+    use chdir() to change the directory
+    return 0 on success and -1 on failure
+}
+
+//One of our built in functions is for clearing the screen, clr, so I will of course have a separate funciton for this:
+int execute_clr(char **args)
+{
+    prints error message if too many arguments
+    just call system("clear") to clear (if the TA reads this, can you let me know if just calling this is okay?)
+    return;
+}
+
+//One of our built in functions is for reading and outputting the names of files in a directory, dir (which is basically ls), so I will of course have a separate funciton for this:
+int execute_dir(char **args)
+{
+    prints error message if too many arguments
+    create directory pointer
+    create struct
+    create path of MAX_LENGTH
+    print error if no path provided
+    print error if error on opening certain path
+    open the directory just like we did for assignment 0/1:
+    strcpy(path, args[1]);
+    if ((dp = opendir(path)) == NULL)
+    {
+        fprintf(stderr, "Opendir %s error", path);
+    }
+    while ((dir = readdir(dp)))
+    {
+        printf("%s\n", dir->d_name);
+    }
+    closedir(dp);
+    return
+}
+
+//One of our built in functions is for writing to the screen the environment variables, environ, so I will of course have a separate funciton for this:
+int execute_environ(char **args)
+{
+    if inputted an argument with this, print too many arguments
+    create pid variable
+    if fork fails, print error message
+    else if pid == 0
+        call system("printenv") //Question for the TA: is this allowed, or am I supposed to be implementing this command in a different way?
+    else //in parent
+        wait(NULL);
+    return 0 on success
+}
+
+//One of our built in functions is for outputting a user inputted comment to the terminal/screen, echo, so I will of course have a separate funciton for this:
+int execute_echo(char **args)
+{
+    create a string to hold inputted string, making sure to use malloc()
+    since the user can input spaces with what they want to output I will create a counter variable, and say as long as args[counter] isn't null, add the string to our string of this function
+    while loop as described above()
+    {
+        strcat() //as described above
+    }
+    printf(string created)
+    call free on created string
+    return 0 on success
+}
+
+//One of our built in functions is for helping the user/outputting the readme, help, so I will of course have a separate funciton for this:
+int execute_help(char **args)
+{
+    if the user adds an argument to this function call, print error too many arguments
+    create a string to hold the contents of the path of the readme, makign sure to use malloc() function for space
+    we stored the address of the originaldirectory in the main function (should probably be made to be a global variable), and we will use this to find where our readme file is located
+    we use strcat() function to add the /README.md to the path specified from the original directory variable, and we call:
+    system(path) //to have the system open the path
+    free(path)
+    return 0 on success
+}
+
+//The last of our built in functions is for pausing the shell until the user presses enter, pause, so I will of course have a separate funciton for this:
+int ex_pause(char **args)
+{
+    if the user adds an argument to this function call, print error for too many arguments
+    print out a message in the terminal to let the user know we have paused operation and they can press enter to continue
+    while (getchar() is not \n (enter))
+    {
+        do aboslutely nothing
+    }
+    return 0 on success
+}
+
+And this should be everything we needed to implement in our code/shell!

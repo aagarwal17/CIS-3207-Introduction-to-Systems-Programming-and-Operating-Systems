@@ -1,0 +1,820 @@
+SIGUSR1 |  | Sent 10 Received 20 | Current Time Fri Apr 22 16:36:03 2022
+ | Avg Time Between Signals 0.108392
+SIGUSR2 |  | Sent 10 Received 20 | Current Time Fri Apr 22 16:36:03 2022
+ | Avg Time Between Signals 0.10641
+
+SIGUSR1 |  | Sent 20 Received 40 | Current Time Fri Apr 22 16:36:03 2022
+ | Avg Time Between Signals 0.121959
+SIGUSR2 |  | Sent 20 Received 39 | Current Time Fri Apr 22 16:36:03 2022
+ | Avg Time Between Signals 0.122004
+
+SIGUSR1 |  | Sent 28 Received 56 | Current Time Fri Apr 22 16:36:04 2022
+ | Avg Time Between Signals 0.0899905
+SIGUSR2 |  | Sent 32 Received 64 | Current Time Fri Apr 22 16:36:04 2022
+ | Avg Time Between Signals 0.0920749
+
+SIGUSR1 |  | Sent 36 Received 72 | Current Time Fri Apr 22 16:36:04 2022
+ | Avg Time Between Signals 0.111076
+SIGUSR2 |  | Sent 44 Received 88 | Current Time Fri Apr 22 16:36:04 2022
+ | Avg Time Between Signals 0.115597
+
+SIGUSR1 |  | Sent 51 Received 102 | Current Time Fri Apr 22 16:36:04 2022
+ | Avg Time Between Signals 0.085707
+SIGUSR2 |  | Sent 50 Received 99 | Current Time Fri Apr 22 16:36:04 2022
+ | Avg Time Between Signals 0.130695
+
+SIGUSR1 |  | Sent 61 Received 122 | Current Time Fri Apr 22 16:36:05 2022
+ | Avg Time Between Signals 0.100281
+SIGUSR2 |  | Sent 59 Received 118 | Current Time Fri Apr 22 16:36:05 2022
+ | Avg Time Between Signals 0.103296
+
+SIGUSR1 |  | Sent 72 Received 142 | Current Time Fri Apr 22 16:36:05 2022
+ | Avg Time Between Signals 0.122344
+SIGUSR2 |  | Sent 69 Received 136 | Current Time Fri Apr 22 16:36:05 2022
+ | Avg Time Between Signals 0.12335
+
+SIGUSR1 |  | Sent 79 Received 156 | Current Time Fri Apr 22 16:36:06 2022
+ | Avg Time Between Signals 0.08498
+SIGUSR2 |  | Sent 82 Received 164 | Current Time Fri Apr 22 16:36:06 2022
+ | Avg Time Between Signals 0.0914356
+
+SIGUSR1 |  | Sent 88 Received 172 | Current Time Fri Apr 22 16:36:06 2022
+ | Avg Time Between Signals 0.112558
+SIGUSR2 |  | Sent 93 Received 186 | Current Time Fri Apr 22 16:36:06 2022
+ | Avg Time Between Signals 0.110066
+
+SIGUSR1 |  | Sent 100 Received 198 | Current Time Fri Apr 22 16:36:06 2022
+ | Avg Time Between Signals 0.12607
+SIGUSR2 |  | Sent 101 Received 202 | Current Time Fri Apr 22 16:36:06 2022
+ | Avg Time Between Signals 0.126632
+
+SIGUSR1 |  | Sent 110 Received 218 | Current Time Fri Apr 22 16:36:07 2022
+ | Avg Time Between Signals 0.0916611
+SIGUSR2 |  | Sent 111 Received 222 | Current Time Fri Apr 22 16:36:07 2022
+ | Avg Time Between Signals 0.0906927
+
+SIGUSR1 |  | Sent 121 Received 240 | Current Time Fri Apr 22 16:36:07 2022
+ | Avg Time Between Signals 0.111806
+SIGUSR2 |  | Sent 122 Received 243 | Current Time Fri Apr 22 16:36:07 2022
+ | Avg Time Between Signals 0.112769
+
+SIGUSR1 |  | Sent 131 Received 258 | Current Time Fri Apr 22 16:36:08 2022
+ | Avg Time Between Signals 0.0838952
+SIGUSR2 |  | Sent 135 Received 266 | Current Time Fri Apr 22 16:36:08 2022
+ | Avg Time Between Signals 0.0828845
+
+SIGUSR1 |  | Sent 138 Received 272 | Current Time Fri Apr 22 16:36:08 2022
+ | Avg Time Between Signals 0.10248
+SIGUSR2 |  | Sent 149 Received 292 | Current Time Fri Apr 22 16:36:08 2022
+ | Avg Time Between Signals 0.105481
+
+SIGUSR1 |  | Sent 145 Received 286 | Current Time Fri Apr 22 16:36:08 2022
+ | Avg Time Between Signals 0.126046
+SIGUSR2 |  | Sent 162 Received 319 | Current Time Fri Apr 22 16:36:08 2022
+ | Avg Time Between Signals 0.126575
+
+SIGUSR1 |  | Sent 150 Received 296 | Current Time Fri Apr 22 16:36:09 2022
+ | Avg Time Between Signals 0.0951782
+SIGUSR2 |  | Sent 178 Received 348 | Current Time Fri Apr 22 16:36:09 2022
+ | Avg Time Between Signals 0.0952271
+
+SIGUSR1 |  | Sent 158 Received 312 | Current Time Fri Apr 22 16:36:09 2022
+ | Avg Time Between Signals 0.111241
+SIGUSR2 |  | Sent 190 Received 372 | Current Time Fri Apr 22 16:36:09 2022
+ | Avg Time Between Signals 0.115347
+
+SIGUSR1 |  | Sent 165 Received 326 | Current Time Fri Apr 22 16:36:09 2022
+ | Avg Time Between Signals 0.126898
+SIGUSR2 |  | Sent 203 Received 399 | Current Time Fri Apr 22 16:36:09 2022
+ | Avg Time Between Signals 0.13192
+
+SIGUSR1 |  | Sent 176 Received 348 | Current Time Fri Apr 22 16:36:10 2022
+ | Avg Time Between Signals 0.101977
+SIGUSR2 |  | Sent 212 Received 417 | Current Time Fri Apr 22 16:36:10 2022
+ | Avg Time Between Signals 0.105453
+
+SIGUSR1 |  | Sent 185 Received 366 | Current Time Fri Apr 22 16:36:10 2022
+ | Avg Time Between Signals 0.127036
+SIGUSR2 |  | Sent 223 Received 439 | Current Time Fri Apr 22 16:36:10 2022
+ | Avg Time Between Signals 0.129097
+
+SIGUSR1 |  | Sent 193 Received 381 | Current Time Fri Apr 22 16:36:11 2022
+ | Avg Time Between Signals 0.0981714
+SIGUSR2 |  | Sent 235 Received 463 | Current Time Fri Apr 22 16:36:11 2022
+ | Avg Time Between Signals 0.0961096
+
+SIGUSR1 |  | Sent 206 Received 406 | Current Time Fri Apr 22 16:36:11 2022
+ | Avg Time Between Signals 0.117217
+SIGUSR2 |  | Sent 243 Received 479 | Current Time Fri Apr 22 16:36:11 2022
+ | Avg Time Between Signals 0.117751
+
+SIGUSR1 |  | Sent 217 Received 427 | Current Time Fri Apr 22 16:36:12 2022
+ | Avg Time Between Signals 0.0887992
+SIGUSR2 |  | Sent 252 Received 497 | Current Time Fri Apr 22 16:36:12 2022
+ | Avg Time Between Signals 0.0863627
+
+SIGUSR1 |  | Sent 229 Received 450 | Current Time Fri Apr 22 16:36:12 2022
+ | Avg Time Between Signals 0.108385
+SIGUSR2 |  | Sent 261 Received 515 | Current Time Fri Apr 22 16:36:12 2022
+ | Avg Time Between Signals 0.104403
+
+SIGUSR1 |  | Sent 238 Received 468 | Current Time Fri Apr 22 16:36:12 2022
+ | Avg Time Between Signals 0.127018
+SIGUSR2 |  | Sent 272 Received 537 | Current Time Fri Apr 22 16:36:12 2022
+ | Avg Time Between Signals 0.126504
+
+SIGUSR1 |  | Sent 245 Received 482 | Current Time Fri Apr 22 16:36:13 2022
+ | Avg Time Between Signals 0.0925838
+SIGUSR2 |  | Sent 286 Received 563 | Current Time Fri Apr 22 16:36:13 2022
+ | Avg Time Between Signals 0.0931098
+
+SIGUSR1 |  | Sent 254 Received 498 | Current Time Fri Apr 22 16:36:13 2022
+ | Avg Time Between Signals 0.111707
+SIGUSR2 |  | Sent 297 Received 585 | Current Time Fri Apr 22 16:36:13 2022
+ | Avg Time Between Signals 0.111253
+
+SIGUSR1 |  | Sent 259 Received 508 | Current Time Fri Apr 22 16:36:13 2022
+ | Avg Time Between Signals 0.130247
+SIGUSR2 |  | Sent 312 Received 615 | Current Time Fri Apr 22 16:36:13 2022
+ | Avg Time Between Signals 0.128303
+
+SIGUSR1 |  | Sent 272 Received 534 | Current Time Fri Apr 22 16:36:14 2022
+ | Avg Time Between Signals 0.0958642
+SIGUSR2 |  | Sent 320 Received 631 | Current Time Fri Apr 22 16:36:14 2022
+ | Avg Time Between Signals 0.099992
+
+SIGUSR1 |  | Sent 284 Received 556 | Current Time Fri Apr 22 16:36:14 2022
+ | Avg Time Between Signals 0.116484
+SIGUSR2 |  | Sent 328 Received 647 | Current Time Fri Apr 22 16:36:14 2022
+ | Avg Time Between Signals 0.116007
+
+SIGUSR1 |  | Sent 291 Received 572 | Current Time Fri Apr 22 16:36:15 2022
+ | Avg Time Between Signals 0.0861121
+SIGUSR2 |  | Sent 341 Received 672 | Current Time Fri Apr 22 16:36:15 2022
+ | Avg Time Between Signals 0.086633
+
+SIGUSR1 |  | Sent 307 Received 604 | Current Time Fri Apr 22 16:36:15 2022
+ | Avg Time Between Signals 0.103253
+SIGUSR2 |  | Sent 345 Received 681 | Current Time Fri Apr 22 16:36:15 2022
+ | Avg Time Between Signals 0.102707
+
+SIGUSR1 |  | Sent 312 Received 614 | Current Time Fri Apr 22 16:36:15 2022
+ | Avg Time Between Signals 0.124837
+SIGUSR2 |  | Sent 360 Received 709 | Current Time Fri Apr 22 16:36:15 2022
+ | Avg Time Between Signals 0.12539
+
+SIGUSR1 |  | Sent 321 Received 632 | Current Time Fri Apr 22 16:36:16 2022
+ | Avg Time Between Signals 0.0944105
+SIGUSR2 |  | Sent 371 Received 733 | Current Time Fri Apr 22 16:36:16 2022
+ | Avg Time Between Signals 0.093499
+
+SIGUSR1 |  | Sent 333 Received 656 | Current Time Fri Apr 22 16:36:16 2022
+ | Avg Time Between Signals 0.110632
+SIGUSR2 |  | Sent 379 Received 747 | Current Time Fri Apr 22 16:36:16 2022
+ | Avg Time Between Signals 0.111547
+
+SIGUSR1 |  | Sent 345 Received 680 | Current Time Fri Apr 22 16:36:16 2022
+ | Avg Time Between Signals 0.1275
+SIGUSR2 |  | Sent 387 Received 764 | Current Time Fri Apr 22 16:36:16 2022
+ | Avg Time Between Signals 0.0831675
+
+SIGUSR1 |  | Sent 357 Received 704 | Current Time Fri Apr 22 16:36:17 2022
+ | Avg Time Between Signals 0.102124
+SIGUSR2 |  | Sent 395 Received 781 | Current Time Fri Apr 22 16:36:17 2022
+ | Avg Time Between Signals 0.101086
+
+SIGUSR1 |  | Sent 366 Received 722 | Current Time Fri Apr 22 16:36:17 2022
+ | Avg Time Between Signals 0.121364
+SIGUSR2 |  | Sent 406 Received 803 | Current Time Fri Apr 22 16:36:17 2022
+ | Avg Time Between Signals 0.116339
+
+SIGUSR1 |  | Sent 380 Received 750 | Current Time Fri Apr 22 16:36:18 2022
+ | Avg Time Between Signals 0.0935113
+SIGUSR2 |  | Sent 412 Received 815 | Current Time Fri Apr 22 16:36:18 2022
+ | Avg Time Between Signals 0.0899242
+
+SIGUSR1 |  | Sent 393 Received 776 | Current Time Fri Apr 22 16:36:18 2022
+ | Avg Time Between Signals 0.110953
+SIGUSR2 |  | Sent 419 Received 829 | Current Time Fri Apr 22 16:36:18 2022
+ | Avg Time Between Signals 0.109601
+
+SIGUSR1 |  | Sent 404 Received 798 | Current Time Fri Apr 22 16:36:18 2022
+ | Avg Time Between Signals 0.127052
+SIGUSR2 |  | Sent 428 Received 847 | Current Time Fri Apr 22 16:36:18 2022
+ | Avg Time Between Signals 0.126681
+
+SIGUSR1 |  | Sent 412 Received 814 | Current Time Fri Apr 22 16:36:19 2022
+ | Avg Time Between Signals 0.0932408
+SIGUSR2 |  | Sent 440 Received 871 | Current Time Fri Apr 22 16:36:19 2022
+ | Avg Time Between Signals 0.0922385
+
+SIGUSR1 |  | Sent 424 Received 837 | Current Time Fri Apr 22 16:36:19 2022
+ | Avg Time Between Signals 0.108856
+SIGUSR2 |  | Sent 448 Received 887 | Current Time Fri Apr 22 16:36:19 2022
+ | Avg Time Between Signals 0.103346
+
+SIGUSR1 |  | Sent 435 Received 859 | Current Time Fri Apr 22 16:36:19 2022
+ | Avg Time Between Signals 0.12579
+SIGUSR2 |  | Sent 457 Received 904 | Current Time Fri Apr 22 16:36:19 2022
+ | Avg Time Between Signals 0.127827
+
+SIGUSR1 |  | Sent 447 Received 881 | Current Time Fri Apr 22 16:36:20 2022
+ | Avg Time Between Signals 0.0998847
+SIGUSR2 |  | Sent 465 Received 921 | Current Time Fri Apr 22 16:36:20 2022
+ | Avg Time Between Signals 0.0980293
+
+SIGUSR1 |  | Sent 460 Received 909 | Current Time Fri Apr 22 16:36:20 2022
+ | Avg Time Between Signals 0.117446
+SIGUSR2 |  | Sent 472 Received 935 | Current Time Fri Apr 22 16:36:20 2022
+ | Avg Time Between Signals 0.119611
+
+SIGUSR1 |  | Sent 468 Received 925 | Current Time Fri Apr 22 16:36:21 2022
+ | Avg Time Between Signals 0.0890532
+SIGUSR2 |  | Sent 484 Received 959 | Current Time Fri Apr 22 16:36:21 2022
+ | Avg Time Between Signals 0.0886783
+
+SIGUSR1 |  | Sent 481 Received 951 | Current Time Fri Apr 22 16:36:21 2022
+ | Avg Time Between Signals 0.108668
+SIGUSR2 |  | Sent 491 Received 972 | Current Time Fri Apr 22 16:36:21 2022
+ | Avg Time Between Signals 0.109288
+
+SIGUSR1 |  | Sent 492 Received 973 | Current Time Fri Apr 22 16:36:21 2022
+ | Avg Time Between Signals 0.129793
+SIGUSR2 |  | Sent 501 Received 992 | Current Time Fri Apr 22 16:36:21 2022
+ | Avg Time Between Signals 0.128864
+
+SIGUSR1 |  | Sent 506 Received 1001 | Current Time Fri Apr 22 16:36:22 2022
+ | Avg Time Between Signals 0.0995232
+SIGUSR2 |  | Sent 507 Received 1004 | Current Time Fri Apr 22 16:36:22 2022
+ | Avg Time Between Signals 0.0974576
+
+SIGUSR1 |  | Sent 515 Received 1019 | Current Time Fri Apr 22 16:36:22 2022
+ | Avg Time Between Signals 0.117463
+SIGUSR2 |  | Sent 518 Received 1024 | Current Time Fri Apr 22 16:36:22 2022
+ | Avg Time Between Signals 0.117531
+
+SIGUSR1 |  | Sent 524 Received 1036 | Current Time Fri Apr 22 16:36:23 2022
+ | Avg Time Between Signals 0.0871437
+SIGUSR2 |  | Sent 529 Received 1048 | Current Time Fri Apr 22 16:36:23 2022
+ | Avg Time Between Signals 0.0866603
+
+SIGUSR1 |  | Sent 536 Received 1061 | Current Time Fri Apr 22 16:36:23 2022
+ | Avg Time Between Signals 0.103267
+SIGUSR2 |  | Sent 537 Received 1063 | Current Time Fri Apr 22 16:36:23 2022
+ | Avg Time Between Signals 0.104727
+
+SIGUSR1 |  | Sent 550 Received 1087 | Current Time Fri Apr 22 16:36:23 2022
+ | Avg Time Between Signals 0.12334
+SIGUSR2 |  | Sent 543 Received 1076 | Current Time Fri Apr 22 16:36:23 2022
+ | Avg Time Between Signals 0.120781
+
+SIGUSR1 |  | Sent 561 Received 1111 | Current Time Fri Apr 22 16:36:24 2022
+ | Avg Time Between Signals 0.0909021
+SIGUSR2 |  | Sent 552 Received 1093 | Current Time Fri Apr 22 16:36:24 2022
+ | Avg Time Between Signals 0.0919109
+
+SIGUSR1 |  | Sent 567 Received 1123 | Current Time Fri Apr 22 16:36:24 2022
+ | Avg Time Between Signals 0.113485
+SIGUSR2 |  | Sent 566 Received 1122 | Current Time Fri Apr 22 16:36:24 2022
+ | Avg Time Between Signals 0.114501
+
+SIGUSR1 |  | Sent 573 Received 1135 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.131563
+SIGUSR2 |  | Sent 580 Received 1148 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.085074
+
+SIGUSR1 |  | Sent 585 Received 1159 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.1002
+SIGUSR2 |  | Sent 588 Received 1166 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.0996623
+
+SIGUSR1 |  | Sent 591 Received 1171 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.114771
+SIGUSR2 |  | Sent 602 Received 1194 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.114257
+
+SIGUSR1 |  | Sent 604 Received 1197 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.129666
+SIGUSR2 |  | Sent 609 Received 1207 | Current Time Fri Apr 22 16:36:25 2022
+ | Avg Time Between Signals 0.130836
+
+SIGUSR1 |  | Sent 613 Received 1215 | Current Time Fri Apr 22 16:36:26 2022
+ | Avg Time Between Signals 0.094795
+SIGUSR2 |  | Sent 620 Received 1230 | Current Time Fri Apr 22 16:36:26 2022
+ | Avg Time Between Signals 0.0949136
+
+SIGUSR1 |  | Sent 623 Received 1235 | Current Time Fri Apr 22 16:36:26 2022
+ | Avg Time Between Signals 0.111521
+SIGUSR2 |  | Sent 630 Received 1250 | Current Time Fri Apr 22 16:36:26 2022
+ | Avg Time Between Signals 0.110887
+
+SIGUSR1 |  | Sent 638 Received 1265 | Current Time Fri Apr 22 16:36:26 2022
+ | Avg Time Between Signals 0.125592
+SIGUSR2 |  | Sent 635 Received 1258 | Current Time Fri Apr 22 16:36:26 2022
+ | Avg Time Between Signals 0.127492
+
+SIGUSR1 |  | Sent 646 Received 1281 | Current Time Fri Apr 22 16:36:27 2022
+ | Avg Time Between Signals 0.0921591
+SIGUSR2 |  | Sent 647 Received 1284 | Current Time Fri Apr 22 16:36:27 2022
+ | Avg Time Between Signals 0.0946934
+
+SIGUSR1 |  | Sent 657 Received 1303 | Current Time Fri Apr 22 16:36:27 2022
+ | Avg Time Between Signals 0.113775
+SIGUSR2 |  | Sent 656 Received 1302 | Current Time Fri Apr 22 16:36:27 2022
+ | Avg Time Between Signals 0.112763
+
+SIGUSR1 |  | Sent 670 Received 1327 | Current Time Fri Apr 22 16:36:27 2022
+ | Avg Time Between Signals 0.12987
+SIGUSR2 |  | Sent 663 Received 1316 | Current Time Fri Apr 22 16:36:27 2022
+ | Avg Time Between Signals 0.128346
+
+SIGUSR1 |  | Sent 680 Received 1349 | Current Time Fri Apr 22 16:36:28 2022
+ | Avg Time Between Signals 0.0964351
+SIGUSR2 |  | Sent 673 Received 1336 | Current Time Fri Apr 22 16:36:28 2022
+ | Avg Time Between Signals 0.0964725
+
+SIGUSR1 |  | Sent 691 Received 1371 | Current Time Fri Apr 22 16:36:28 2022
+ | Avg Time Between Signals 0.111871
+SIGUSR2 |  | Sent 682 Received 1353 | Current Time Fri Apr 22 16:36:28 2022
+ | Avg Time Between Signals 0.115065
+
+SIGUSR1 |  | Sent 698 Received 1385 | Current Time Fri Apr 22 16:36:28 2022
+ | Avg Time Between Signals 0.0827043
+SIGUSR2 |  | Sent 695 Received 1380 | Current Time Fri Apr 22 16:36:28 2022
+ | Avg Time Between Signals 0.130665
+
+SIGUSR1 |  | Sent 708 Received 1405 | Current Time Fri Apr 22 16:36:29 2022
+ | Avg Time Between Signals 0.10414
+SIGUSR2 |  | Sent 705 Received 1400 | Current Time Fri Apr 22 16:36:29 2022
+ | Avg Time Between Signals 0.102757
+
+SIGUSR1 |  | Sent 719 Received 1427 | Current Time Fri Apr 22 16:36:29 2022
+ | Avg Time Between Signals 0.124738
+SIGUSR2 |  | Sent 714 Received 1418 | Current Time Fri Apr 22 16:36:29 2022
+ | Avg Time Between Signals 0.120693
+
+SIGUSR1 |  | Sent 731 Received 1449 | Current Time Fri Apr 22 16:36:30 2022
+ | Avg Time Between Signals 0.0939561
+SIGUSR2 |  | Sent 723 Received 1436 | Current Time Fri Apr 22 16:36:30 2022
+ | Avg Time Between Signals 0.0939454
+
+SIGUSR1 |  | Sent 744 Received 1475 | Current Time Fri Apr 22 16:36:30 2022
+ | Avg Time Between Signals 0.110517
+SIGUSR2 |  | Sent 730 Received 1450 | Current Time Fri Apr 22 16:36:30 2022
+ | Avg Time Between Signals 0.109903
+
+SIGUSR1 |  | Sent 757 Received 1501 | Current Time Fri Apr 22 16:36:30 2022
+ | Avg Time Between Signals 0.126485
+SIGUSR2 |  | Sent 737 Received 1464 | Current Time Fri Apr 22 16:36:30 2022
+ | Avg Time Between Signals 0.127116
+
+SIGUSR1 |  | Sent 772 Received 1531 | Current Time Fri Apr 22 16:36:31 2022
+ | Avg Time Between Signals 0.0961768
+SIGUSR2 |  | Sent 742 Received 1473 | Current Time Fri Apr 22 16:36:31 2022
+ | Avg Time Between Signals 0.096213
+
+SIGUSR1 |  | Sent 783 Received 1553 | Current Time Fri Apr 22 16:36:31 2022
+ | Avg Time Between Signals 0.107786
+SIGUSR2 |  | Sent 752 Received 1492 | Current Time Fri Apr 22 16:36:31 2022
+ | Avg Time Between Signals 0.111289
+
+SIGUSR1 |  | Sent 792 Received 1571 | Current Time Fri Apr 22 16:36:31 2022
+ | Avg Time Between Signals 0.127262
+SIGUSR2 |  | Sent 763 Received 1515 | Current Time Fri Apr 22 16:36:31 2022
+ | Avg Time Between Signals 0.129864
+
+SIGUSR1 |  | Sent 804 Received 1595 | Current Time Fri Apr 22 16:36:32 2022
+ | Avg Time Between Signals 0.10046
+SIGUSR2 |  | Sent 772 Received 1534 | Current Time Fri Apr 22 16:36:32 2022
+ | Avg Time Between Signals 0.100862
+
+SIGUSR1 |  | Sent 816 Received 1619 | Current Time Fri Apr 22 16:36:32 2022
+ | Avg Time Between Signals 0.118457
+SIGUSR2 |  | Sent 780 Received 1550 | Current Time Fri Apr 22 16:36:32 2022
+ | Avg Time Between Signals 0.117551
+
+SIGUSR1 |  | Sent 826 Received 1639 | Current Time Fri Apr 22 16:36:33 2022
+ | Avg Time Between Signals 0.0871165
+SIGUSR2 |  | Sent 790 Received 1570 | Current Time Fri Apr 22 16:36:33 2022
+ | Avg Time Between Signals 0.086652
+
+SIGUSR1 |  | Sent 838 Received 1662 | Current Time Fri Apr 22 16:36:33 2022
+ | Avg Time Between Signals 0.106234
+SIGUSR2 |  | Sent 798 Received 1586 | Current Time Fri Apr 22 16:36:33 2022
+ | Avg Time Between Signals 0.105708
+
+SIGUSR1 |  | Sent 845 Received 1676 | Current Time Fri Apr 22 16:36:33 2022
+ | Avg Time Between Signals 0.122783
+SIGUSR2 |  | Sent 811 Received 1610 | Current Time Fri Apr 22 16:36:33 2022
+ | Avg Time Between Signals 0.127294
+
+SIGUSR1 |  | Sent 854 Received 1694 | Current Time Fri Apr 22 16:36:34 2022
+ | Avg Time Between Signals 0.0913502
+SIGUSR2 |  | Sent 823 Received 1636 | Current Time Fri Apr 22 16:36:34 2022
+ | Avg Time Between Signals 0.0928934
+
+SIGUSR1 |  | Sent 862 Received 1707 | Current Time Fri Apr 22 16:36:34 2022
+ | Avg Time Between Signals 0.109955
+SIGUSR2 |  | Sent 835 Received 1660 | Current Time Fri Apr 22 16:36:34 2022
+ | Avg Time Between Signals 0.10794
+
+SIGUSR1 |  | Sent 873 Received 1732 | Current Time Fri Apr 22 16:36:34 2022
+ | Avg Time Between Signals 0.128544
+SIGUSR2 |  | Sent 844 Received 1678 | Current Time Fri Apr 22 16:36:34 2022
+ | Avg Time Between Signals 0.128046
+
+SIGUSR1 |  | Sent 885 Received 1756 | Current Time Fri Apr 22 16:36:35 2022
+ | Avg Time Between Signals 0.0950992
+SIGUSR2 |  | Sent 852 Received 1694 | Current Time Fri Apr 22 16:36:35 2022
+ | Avg Time Between Signals 0.0936513
+
+SIGUSR1 |  | Sent 896 Received 1777 | Current Time Fri Apr 22 16:36:35 2022
+ | Avg Time Between Signals 0.114188
+SIGUSR2 |  | Sent 861 Received 1712 | Current Time Fri Apr 22 16:36:35 2022
+ | Avg Time Between Signals 0.114188
+
+SIGUSR1 |  | Sent 906 Received 1798 | Current Time Fri Apr 22 16:36:36 2022
+ | Avg Time Between Signals 0.084753
+SIGUSR2 |  | Sent 872 Received 1732 | Current Time Fri Apr 22 16:36:36 2022
+ | Avg Time Between Signals 0.0848333
+
+SIGUSR1 |  | Sent 916 Received 1818 | Current Time Fri Apr 22 16:36:36 2022
+ | Avg Time Between Signals 0.102908
+SIGUSR2 |  | Sent 883 Received 1754 | Current Time Fri Apr 22 16:36:36 2022
+ | Avg Time Between Signals 0.104934
+
+SIGUSR1 |  | Sent 929 Received 1844 | Current Time Fri Apr 22 16:36:36 2022
+ | Avg Time Between Signals 0.119421
+SIGUSR2 |  | Sent 890 Received 1769 | Current Time Fri Apr 22 16:36:36 2022
+ | Avg Time Between Signals 0.119941
+
+SIGUSR1 |  | Sent 939 Received 1864 | Current Time Fri Apr 22 16:36:37 2022
+ | Avg Time Between Signals 0.0825559
+SIGUSR2 |  | Sent 900 Received 1787 | Current Time Fri Apr 22 16:36:37 2022
+ | Avg Time Between Signals 0.0845048
+
+SIGUSR1 |  | Sent 948 Received 1882 | Current Time Fri Apr 22 16:36:37 2022
+ | Avg Time Between Signals 0.102625
+SIGUSR2 |  | Sent 911 Received 1811 | Current Time Fri Apr 22 16:36:37 2022
+ | Avg Time Between Signals 0.101109
+
+SIGUSR1 |  | Sent 956 Received 1897 | Current Time Fri Apr 22 16:36:37 2022
+ | Avg Time Between Signals 0.124722
+SIGUSR2 |  | Sent 924 Received 1835 | Current Time Fri Apr 22 16:36:37 2022
+ | Avg Time Between Signals 0.122715
+
+SIGUSR1 |  | Sent 967 Received 1920 | Current Time Fri Apr 22 16:36:38 2022
+ | Avg Time Between Signals 0.0923152
+SIGUSR2 |  | Sent 933 Received 1853 | Current Time Fri Apr 22 16:36:38 2022
+ | Avg Time Between Signals 0.0913048
+
+SIGUSR1 |  | Sent 975 Received 1936 | Current Time Fri Apr 22 16:36:38 2022
+ | Avg Time Between Signals 0.105437
+SIGUSR2 |  | Sent 945 Received 1876 | Current Time Fri Apr 22 16:36:38 2022
+ | Avg Time Between Signals 0.11049
+
+SIGUSR1 |  | Sent 985 Received 1956 | Current Time Fri Apr 22 16:36:38 2022
+ | Avg Time Between Signals 0.129975
+SIGUSR2 |  | Sent 955 Received 1897 | Current Time Fri Apr 22 16:36:38 2022
+ | Avg Time Between Signals 0.129402
+
+SIGUSR1 |  | Sent 998 Received 1982 | Current Time Fri Apr 22 16:36:39 2022
+ | Avg Time Between Signals 0.0975638
+SIGUSR2 |  | Sent 962 Received 1910 | Current Time Fri Apr 22 16:36:39 2022
+ | Avg Time Between Signals 0.0991646
+
+SIGUSR1 |  | Sent 1006 Received 1998 | Current Time Fri Apr 22 16:36:39 2022
+ | Avg Time Between Signals 0.114244
+SIGUSR2 |  | Sent 974 Received 1933 | Current Time Fri Apr 22 16:36:39 2022
+ | Avg Time Between Signals 0.115772
+
+SIGUSR1 |  | Sent 1014 Received 2014 | Current Time Fri Apr 22 16:36:40 2022
+ | Avg Time Between Signals 0.0838684
+SIGUSR2 |  | Sent 986 Received 1959 | Current Time Fri Apr 22 16:36:40 2022
+ | Avg Time Between Signals 0.0872404
+
+SIGUSR1 |  | Sent 1026 Received 2036 | Current Time Fri Apr 22 16:36:40 2022
+ | Avg Time Between Signals 0.106293
+SIGUSR2 |  | Sent 994 Received 1975 | Current Time Fri Apr 22 16:36:40 2022
+ | Avg Time Between Signals 0.103971
+
+SIGUSR1 |  | Sent 1035 Received 2056 | Current Time Fri Apr 22 16:36:40 2022
+ | Avg Time Between Signals 0.123262
+SIGUSR2 |  | Sent 1005 Received 1996 | Current Time Fri Apr 22 16:36:40 2022
+ | Avg Time Between Signals 0.125276
+
+SIGUSR1 |  | Sent 1046 Received 2078 | Current Time Fri Apr 22 16:36:41 2022
+ | Avg Time Between Signals 0.094654
+SIGUSR2 |  | Sent 1014 Received 2015 | Current Time Fri Apr 22 16:36:41 2022
+ | Avg Time Between Signals 0.0954455
+
+SIGUSR1 |  | Sent 1058 Received 2102 | Current Time Fri Apr 22 16:36:41 2022
+ | Avg Time Between Signals 0.11704
+SIGUSR2 |  | Sent 1022 Received 2031 | Current Time Fri Apr 22 16:36:41 2022
+ | Avg Time Between Signals 0.113448
+
+SIGUSR1 |  | Sent 1069 Received 2124 | Current Time Fri Apr 22 16:36:42 2022
+ | Avg Time Between Signals 0.0873191
+SIGUSR2 |  | Sent 1031 Received 2049 | Current Time Fri Apr 22 16:36:42 2022
+ | Avg Time Between Signals 0.0833092
+
+SIGUSR1 |  | Sent 1079 Received 2144 | Current Time Fri Apr 22 16:36:42 2022
+ | Avg Time Between Signals 0.106943
+SIGUSR2 |  | Sent 1041 Received 2069 | Current Time Fri Apr 22 16:36:42 2022
+ | Avg Time Between Signals 0.105603
+
+SIGUSR1 |  | Sent 1089 Received 2163 | Current Time Fri Apr 22 16:36:42 2022
+ | Avg Time Between Signals 0.121517
+SIGUSR2 |  | Sent 1051 Received 2089 | Current Time Fri Apr 22 16:36:42 2022
+ | Avg Time Between Signals 0.120674
+
+SIGUSR1 |  | Sent 1104 Received 2194 | Current Time Fri Apr 22 16:36:43 2022
+ | Avg Time Between Signals 0.0913725
+SIGUSR2 |  | Sent 1056 Received 2099 | Current Time Fri Apr 22 16:36:43 2022
+ | Avg Time Between Signals 0.090255
+
+SIGUSR1 |  | Sent 1113 Received 2212 | Current Time Fri Apr 22 16:36:43 2022
+ | Avg Time Between Signals 0.106302
+SIGUSR2 |  | Sent 1067 Received 2121 | Current Time Fri Apr 22 16:36:43 2022
+ | Avg Time Between Signals 0.107053
+
+SIGUSR1 |  | Sent 1123 Received 2230 | Current Time Fri Apr 22 16:36:43 2022
+ | Avg Time Between Signals 0.127289
+SIGUSR2 |  | Sent 1077 Received 2141 | Current Time Fri Apr 22 16:36:43 2022
+ | Avg Time Between Signals 0.12643
+
+SIGUSR1 |  | Sent 1134 Received 2254 | Current Time Fri Apr 22 16:36:44 2022
+ | Avg Time Between Signals 0.0911841
+SIGUSR2 |  | Sent 1086 Received 2159 | Current Time Fri Apr 22 16:36:44 2022
+ | Avg Time Between Signals 0.0905459
+
+SIGUSR1 |  | Sent 1144 Received 2272 | Current Time Fri Apr 22 16:36:44 2022
+ | Avg Time Between Signals 0.107786
+SIGUSR2 |  | Sent 1096 Received 2179 | Current Time Fri Apr 22 16:36:44 2022
+ | Avg Time Between Signals 0.107451
+
+SIGUSR1 |  | Sent 1150 Received 2286 | Current Time Fri Apr 22 16:36:44 2022
+ | Avg Time Between Signals 0.122534
+SIGUSR2 |  | Sent 1110 Received 2207 | Current Time Fri Apr 22 16:36:44 2022
+ | Avg Time Between Signals 0.124253
+
+SIGUSR1 |  | Sent 1159 Received 2303 | Current Time Fri Apr 22 16:36:45 2022
+ | Avg Time Between Signals 0.0896858
+SIGUSR2 |  | Sent 1121 Received 2229 | Current Time Fri Apr 22 16:36:45 2022
+ | Avg Time Between Signals 0.0889649
+
+SIGUSR1 |  | Sent 1171 Received 2326 | Current Time Fri Apr 22 16:36:45 2022
+ | Avg Time Between Signals 0.110432
+SIGUSR2 |  | Sent 1129 Received 2245 | Current Time Fri Apr 22 16:36:45 2022
+ | Avg Time Between Signals 0.110286
+
+SIGUSR1 |  | Sent 1180 Received 2346 | Current Time Fri Apr 22 16:36:45 2022
+ | Avg Time Between Signals 0.130517
+SIGUSR2 |  | Sent 1140 Received 2267 | Current Time Fri Apr 22 16:36:45 2022
+ | Avg Time Between Signals 0.129633
+
+SIGUSR1 |  | Sent 1191 Received 2368 | Current Time Fri Apr 22 16:36:46 2022
+ | Avg Time Between Signals 0.0982137
+SIGUSR2 |  | Sent 1149 Received 2284 | Current Time Fri Apr 22 16:36:46 2022
+ | Avg Time Between Signals 0.0990834
+
+SIGUSR1 |  | Sent 1198 Received 2382 | Current Time Fri Apr 22 16:36:46 2022
+ | Avg Time Between Signals 0.11569
+SIGUSR2 |  | Sent 1162 Received 2310 | Current Time Fri Apr 22 16:36:46 2022
+ | Avg Time Between Signals 0.119115
+
+SIGUSR1 |  | Sent 1207 Received 2400 | Current Time Fri Apr 22 16:36:47 2022
+ | Avg Time Between Signals 0.0857564
+SIGUSR2 |  | Sent 1173 Received 2331 | Current Time Fri Apr 22 16:36:47 2022
+ | Avg Time Between Signals 0.0892739
+
+SIGUSR1 |  | Sent 1215 Received 2416 | Current Time Fri Apr 22 16:36:47 2022
+ | Avg Time Between Signals 0.109836
+SIGUSR2 |  | Sent 1185 Received 2357 | Current Time Fri Apr 22 16:36:47 2022
+ | Avg Time Between Signals 0.110403
+
+SIGUSR1 |  | Sent 1225 Received 2434 | Current Time Fri Apr 22 16:36:47 2022
+ | Avg Time Between Signals 0.129524
+SIGUSR2 |  | Sent 1196 Received 2379 | Current Time Fri Apr 22 16:36:47 2022
+ | Avg Time Between Signals 0.129501
+
+SIGUSR1 |  | Sent 1237 Received 2458 | Current Time Fri Apr 22 16:36:48 2022
+ | Avg Time Between Signals 0.0970326
+SIGUSR2 |  | Sent 1204 Received 2395 | Current Time Fri Apr 22 16:36:48 2022
+ | Avg Time Between Signals 0.0951475
+
+SIGUSR1 |  | Sent 1245 Received 2474 | Current Time Fri Apr 22 16:36:48 2022
+ | Avg Time Between Signals 0.113233
+SIGUSR2 |  | Sent 1216 Received 2419 | Current Time Fri Apr 22 16:36:48 2022
+ | Avg Time Between Signals 0.115739
+
+SIGUSR1 |  | Sent 1253 Received 2490 | Current Time Fri Apr 22 16:36:49 2022
+ | Avg Time Between Signals 0.0837631
+SIGUSR2 |  | Sent 1228 Received 2443 | Current Time Fri Apr 22 16:36:49 2022
+ | Avg Time Between Signals 0.0837183
+
+SIGUSR1 |  | Sent 1262 Received 2508 | Current Time Fri Apr 22 16:36:49 2022
+ | Avg Time Between Signals 0.100803
+SIGUSR2 |  | Sent 1239 Received 2463 | Current Time Fri Apr 22 16:36:49 2022
+ | Avg Time Between Signals 0.100861
+
+SIGUSR1 |  | Sent 1272 Received 2528 | Current Time Fri Apr 22 16:36:49 2022
+ | Avg Time Between Signals 0.117902
+SIGUSR2 |  | Sent 1249 Received 2485 | Current Time Fri Apr 22 16:36:49 2022
+ | Avg Time Between Signals 0.11347
+
+SIGUSR1 |  | Sent 1279 Received 2542 | Current Time Fri Apr 22 16:36:50 2022
+ | Avg Time Between Signals 0.126506
+SIGUSR2 |  | Sent 1262 Received 2511 | Current Time Fri Apr 22 16:36:50 2022
+ | Avg Time Between Signals 0.0854873
+
+SIGUSR1 |  | Sent 1291 Received 2566 | Current Time Fri Apr 22 16:36:50 2022
+ | Avg Time Between Signals 0.0996485
+SIGUSR2 |  | Sent 1270 Received 2527 | Current Time Fri Apr 22 16:36:50 2022
+ | Avg Time Between Signals 0.100661
+
+SIGUSR1 |  | Sent 1302 Received 2588 | Current Time Fri Apr 22 16:36:50 2022
+ | Avg Time Between Signals 0.116116
+SIGUSR2 |  | Sent 1279 Received 2545 | Current Time Fri Apr 22 16:36:50 2022
+ | Avg Time Between Signals 0.120157
+
+SIGUSR1 |  | Sent 1318 Received 2620 | Current Time Fri Apr 22 16:36:51 2022
+ | Avg Time Between Signals 0.0908599
+SIGUSR2 |  | Sent 1283 Received 2553 | Current Time Fri Apr 22 16:36:51 2022
+ | Avg Time Between Signals 0.083826
+
+SIGUSR1 |  | Sent 1328 Received 2640 | Current Time Fri Apr 22 16:36:51 2022
+ | Avg Time Between Signals 0.108452
+SIGUSR2 |  | Sent 1293 Received 2573 | Current Time Fri Apr 22 16:36:51 2022
+ | Avg Time Between Signals 0.107293
+
+SIGUSR1 |  | Sent 1343 Received 2670 | Current Time Fri Apr 22 16:36:51 2022
+ | Avg Time Between Signals 0.127868
+SIGUSR2 |  | Sent 1298 Received 2583 | Current Time Fri Apr 22 16:36:51 2022
+ | Avg Time Between Signals 0.126031
+
+SIGUSR1 |  | Sent 1351 Received 2686 | Current Time Fri Apr 22 16:36:52 2022
+ | Avg Time Between Signals 0.0931388
+SIGUSR2 |  | Sent 1310 Received 2606 | Current Time Fri Apr 22 16:36:52 2022
+ | Avg Time Between Signals 0.0946246
+
+SIGUSR1 |  | Sent 1363 Received 2710 | Current Time Fri Apr 22 16:36:52 2022
+ | Avg Time Between Signals 0.109041
+SIGUSR2 |  | Sent 1318 Received 2623 | Current Time Fri Apr 22 16:36:52 2022
+ | Avg Time Between Signals 0.109804
+
+SIGUSR1 |  | Sent 1375 Received 2734 | Current Time Fri Apr 22 16:36:52 2022
+ | Avg Time Between Signals 0.127262
+SIGUSR2 |  | Sent 1326 Received 2639 | Current Time Fri Apr 22 16:36:52 2022
+ | Avg Time Between Signals 0.128641
+
+SIGUSR1 |  | Sent 1389 Received 2762 | Current Time Fri Apr 22 16:36:53 2022
+ | Avg Time Between Signals 0.0988822
+SIGUSR2 |  | Sent 1332 Received 2651 | Current Time Fri Apr 22 16:36:53 2022
+ | Avg Time Between Signals 0.0977502
+
+SIGUSR1 |  | Sent 1402 Received 2787 | Current Time Fri Apr 22 16:36:53 2022
+ | Avg Time Between Signals 0.114492
+SIGUSR2 |  | Sent 1340 Received 2666 | Current Time Fri Apr 22 16:36:53 2022
+ | Avg Time Between Signals 0.119031
+
+SIGUSR1 |  | Sent 1411 Received 2806 | Current Time Fri Apr 22 16:36:54 2022
+ | Avg Time Between Signals 0.085393
+SIGUSR2 |  | Sent 1350 Received 2687 | Current Time Fri Apr 22 16:36:54 2022
+ | Avg Time Between Signals 0.0869257
+
+SIGUSR1 |  | Sent 1426 Received 2836 | Current Time Fri Apr 22 16:36:54 2022
+ | Avg Time Between Signals 0.107226
+SIGUSR2 |  | Sent 1355 Received 2697 | Current Time Fri Apr 22 16:36:54 2022
+ | Avg Time Between Signals 0.0936764
+
+SIGUSR1 |  | Sent 1438 Received 2860 | Current Time Fri Apr 22 16:36:54 2022
+ | Avg Time Between Signals 0.124836
+SIGUSR2 |  | Sent 1363 Received 2713 | Current Time Fri Apr 22 16:36:54 2022
+ | Avg Time Between Signals 0.120739
+
+SIGUSR1 |  | Sent 1447 Received 2878 | Current Time Fri Apr 22 16:36:55 2022
+ | Avg Time Between Signals 0.0904076
+SIGUSR2 |  | Sent 1374 Received 2735 | Current Time Fri Apr 22 16:36:55 2022
+ | Avg Time Between Signals 0.0917282
+
+SIGUSR1 |  | Sent 1461 Received 2906 | Current Time Fri Apr 22 16:36:55 2022
+ | Avg Time Between Signals 0.108957
+SIGUSR2 |  | Sent 1380 Received 2747 | Current Time Fri Apr 22 16:36:55 2022
+ | Avg Time Between Signals 0.103997
+
+SIGUSR1 |  | Sent 1471 Received 2925 | Current Time Fri Apr 22 16:36:55 2022
+ | Avg Time Between Signals 0.125611
+SIGUSR2 |  | Sent 1390 Received 2767 | Current Time Fri Apr 22 16:36:55 2022
+ | Avg Time Between Signals 0.124894
+
+SIGUSR1 |  | Sent 1478 Received 2940 | Current Time Fri Apr 22 16:36:56 2022
+ | Avg Time Between Signals 0.0912164
+SIGUSR2 |  | Sent 1403 Received 2793 | Current Time Fri Apr 22 16:36:56 2022
+ | Avg Time Between Signals 0.0911585
+
+SIGUSR1 |  | Sent 1488 Received 2960 | Current Time Fri Apr 22 16:36:56 2022
+ | Avg Time Between Signals 0.108579
+SIGUSR2 |  | Sent 1413 Received 2813 | Current Time Fri Apr 22 16:36:56 2022
+ | Avg Time Between Signals 0.108306
+
+SIGUSR1 |  | Sent 1500 Received 2984 | Current Time Fri Apr 22 16:36:56 2022
+ | Avg Time Between Signals 0.127678
+SIGUSR2 |  | Sent 1421 Received 2827 | Current Time Fri Apr 22 16:36:56 2022
+ | Avg Time Between Signals 0.128325
+
+SIGUSR1 |  | Sent 1507 Received 2998 | Current Time Fri Apr 22 16:36:57 2022
+ | Avg Time Between Signals 0.0924785
+SIGUSR2 |  | Sent 1434 Received 2854 | Current Time Fri Apr 22 16:36:57 2022
+ | Avg Time Between Signals 0.0954777
+
+SIGUSR1 |  | Sent 1519 Received 3022 | Current Time Fri Apr 22 16:36:57 2022
+ | Avg Time Between Signals 0.112862
+SIGUSR2 |  | Sent 1442 Received 2870 | Current Time Fri Apr 22 16:36:57 2022
+ | Avg Time Between Signals 0.1141
+
+SIGUSR1 |  | Sent 1531 Received 3046 | Current Time Fri Apr 22 16:36:57 2022
+ | Avg Time Between Signals 0.132195
+SIGUSR2 |  | Sent 1450 Received 2887 | Current Time Fri Apr 22 16:36:57 2022
+ | Avg Time Between Signals 0.0829946
+
+SIGUSR1 |  | Sent 1543 Received 3070 | Current Time Fri Apr 22 16:36:58 2022
+ | Avg Time Between Signals 0.101283
+SIGUSR2 |  | Sent 1458 Received 2901 | Current Time Fri Apr 22 16:36:58 2022
+ | Avg Time Between Signals 0.102128
+
+SIGUSR1 |  | Sent 1555 Received 3093 | Current Time Fri Apr 22 16:36:58 2022
+ | Avg Time Between Signals 0.121319
+SIGUSR2 |  | Sent 1466 Received 2919 | Current Time Fri Apr 22 16:36:58 2022
+ | Avg Time Between Signals 0.118348
+
+SIGUSR1 |  | Sent 1565 Received 3114 | Current Time Fri Apr 22 16:36:59 2022
+ | Avg Time Between Signals 0.0889751
+SIGUSR2 |  | Sent 1476 Received 2939 | Current Time Fri Apr 22 16:36:59 2022
+ | Avg Time Between Signals 0.0859468
+
+SIGUSR1 |  | Sent 1572 Received 3127 | Current Time Fri Apr 22 16:36:59 2022
+ | Avg Time Between Signals 0.105998
+SIGUSR2 |  | Sent 1489 Received 2965 | Current Time Fri Apr 22 16:36:59 2022
+ | Avg Time Between Signals 0.105502
+
+SIGUSR1 |  | Sent 1581 Received 3146 | Current Time Fri Apr 22 16:36:59 2022
+ | Avg Time Between Signals 0.123656
+SIGUSR2 |  | Sent 1500 Received 2987 | Current Time Fri Apr 22 16:36:59 2022
+ | Avg Time Between Signals 0.119632
+
+SIGUSR1 |  | Sent 1591 Received 3166 | Current Time Fri Apr 22 16:37:00 2022
+ | Avg Time Between Signals 0.0917279
+SIGUSR2 |  | Sent 1510 Received 3007 | Current Time Fri Apr 22 16:37:00 2022
+ | Avg Time Between Signals 0.0907163
+
+SIGUSR1 |  | Sent 1602 Received 3188 | Current Time Fri Apr 22 16:37:00 2022
+ | Avg Time Between Signals 0.106744
+SIGUSR2 |  | Sent 1519 Received 3024 | Current Time Fri Apr 22 16:37:00 2022
+ | Avg Time Between Signals 0.11034
+
+SIGUSR1 |  | Sent 1609 Received 3202 | Current Time Fri Apr 22 16:37:00 2022
+ | Avg Time Between Signals 0.127926
+SIGUSR2 |  | Sent 1532 Received 3050 | Current Time Fri Apr 22 16:37:00 2022
+ | Avg Time Between Signals 0.130416
+
+SIGUSR1 |  | Sent 1617 Received 3217 | Current Time Fri Apr 22 16:37:01 2022
+ | Avg Time Between Signals 0.100419
+SIGUSR2 |  | Sent 1544 Received 3075 | Current Time Fri Apr 22 16:37:01 2022
+ | Avg Time Between Signals 0.0990224
+
+SIGUSR1 |  | Sent 1631 Received 3244 | Current Time Fri Apr 22 16:37:01 2022
+ | Avg Time Between Signals 0.122575
+SIGUSR2 |  | Sent 1550 Received 3087 | Current Time Fri Apr 22 16:37:01 2022
+ | Avg Time Between Signals 0.122537
+
+SIGUSR1 |  | Sent 1641 Received 3264 | Current Time Fri Apr 22 16:37:02 2022
+ | Avg Time Between Signals 0.0901569
+SIGUSR2 |  | Sent 1560 Received 3107 | Current Time Fri Apr 22 16:37:02 2022
+ | Avg Time Between Signals 0.0886405
+
+SIGUSR1 |  | Sent 1649 Received 3282 | Current Time Fri Apr 22 16:37:02 2022
+ | Avg Time Between Signals 0.107262
+SIGUSR2 |  | Sent 1572 Received 3129 | Current Time Fri Apr 22 16:37:02 2022
+ | Avg Time Between Signals 0.107283
+
+SIGUSR1 |  | Sent 1659 Received 3302 | Current Time Fri Apr 22 16:37:02 2022
+ | Avg Time Between Signals 0.125819
+SIGUSR2 |  | Sent 1582 Received 3151 | Current Time Fri Apr 22 16:37:02 2022
+ | Avg Time Between Signals 0.124881
+
+SIGUSR1 |  | Sent 1667 Received 3318 | Current Time Fri Apr 22 16:37:03 2022
+ | Avg Time Between Signals 0.092447
+SIGUSR2 |  | Sent 1594 Received 3175 | Current Time Fri Apr 22 16:37:03 2022
+ | Avg Time Between Signals 0.0929766
+
+SIGUSR1 |  | Sent 1678 Received 3340 | Current Time Fri Apr 22 16:37:03 2022
+ | Avg Time Between Signals 0.109467
+SIGUSR2 |  | Sent 1603 Received 3193 | Current Time Fri Apr 22 16:37:03 2022
+ | Avg Time Between Signals 0.112993
+
+SIGUSR1 |  | Sent 1687 Received 3358 | Current Time Fri Apr 22 16:37:03 2022
+ | Avg Time Between Signals 0.126567
+SIGUSR2 |  | Sent 1614 Received 3215 | Current Time Fri Apr 22 16:37:03 2022
+ | Avg Time Between Signals 0.128581
+

@@ -1,0 +1,2 @@
+This is text 1 modified version 2;
+I want to copy to text2;
