@@ -1,0 +1,26 @@
+help
+help > testhelp.txt
+cd demo
+gcc test2.c -o test2
+gcc test3.c -o test3
+./test2 | ./test3 > Output.txt
+./test2 >> Output.txt
+dir
+dir > testdir.txt
+environ
+environ > testenviron.txt
+echo "hello testing echo"
+echo "hello testing echo" > testecho.txt
+cd ..
+ls
+ls | wc
+ls -la | wc
+ls -la > lsOutput.txt
+sort < lsOutput.txt
+cat lsOutput.txt | grep shell
+wc < lsOutput.txt > count.txt
+sort < lsOutput.txt | wc -l >> count.txt
+ls >> count.txt | wc -l
+pause
+clr
+ping -c 2 google.com &

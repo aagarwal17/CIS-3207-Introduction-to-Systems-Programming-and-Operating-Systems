@@ -1,0 +1,595 @@
+SIGUSR1 |  | Sent 4 Received 7 | Current Time Wed Apr 20 16:30:58 2022
+ | Avg Between Signals 0.206253
+SIGUSR2 |  | Sent 7 Received 13 | Current Time Wed Apr 20 16:30:58 2022
+ | Avg Between Signals 0.221312
+
+SIGUSR1 |  | Sent 7 Received 14 | Current Time Wed Apr 20 16:30:58 2022
+ | Avg Between Signals 0.235361
+SIGUSR2 |  | Sent 13 Received 26 | Current Time Wed Apr 20 16:30:58 2022
+ | Avg Between Signals 0.238385
+
+SIGUSR1 |  | Sent 11 Received 22 | Current Time Wed Apr 20 16:30:58 2022
+ | Avg Between Signals 0.262437
+SIGUSR2 |  | Sent 20 Received 38 | Current Time Wed Apr 20 16:30:58 2022
+ | Avg Between Signals 0.256436
+
+SIGUSR1 |  | Sent 15 Received 30 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.183511
+SIGUSR2 |  | Sent 26 Received 50 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.179544
+
+SIGUSR1 |  | Sent 21 Received 41 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.19759
+SIGUSR2 |  | Sent 30 Received 58 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.196568
+
+SIGUSR1 |  | Sent 30 Received 60 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.215623
+SIGUSR2 |  | Sent 31 Received 60 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.200633
+
+SIGUSR1 |  | Sent 35 Received 70 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.23472
+SIGUSR2 |  | Sent 36 Received 70 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.232735
+
+SIGUSR1 |  | Sent 41 Received 80 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.25483
+SIGUSR2 |  | Sent 41 Received 80 | Current Time Wed Apr 20 16:30:59 2022
+ | Avg Between Signals 0.254817
+
+SIGUSR1 |  | Sent 47 Received 92 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.182862
+SIGUSR2 |  | Sent 45 Received 88 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.178902
+
+SIGUSR1 |  | Sent 51 Received 100 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.194911
+SIGUSR2 |  | Sent 51 Received 98 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.198004
+
+SIGUSR1 |  | Sent 59 Received 116 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.216005
+SIGUSR2 |  | Sent 53 Received 104 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.213974
+
+SIGUSR1 |  | Sent 62 Received 122 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.234115
+SIGUSR2 |  | Sent 60 Received 116 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.240124
+
+SIGUSR1 |  | Sent 65 Received 128 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.260191
+SIGUSR2 |  | Sent 67 Received 132 | Current Time Wed Apr 20 16:31:00 2022
+ | Avg Between Signals 0.261266
+
+SIGUSR1 |  | Sent 67 Received 132 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.174339
+SIGUSR2 |  | Sent 76 Received 147 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.185271
+
+SIGUSR1 |  | Sent 71 Received 140 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.205355
+SIGUSR2 |  | Sent 82 Received 159 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.20938
+
+SIGUSR1 |  | Sent 76 Received 150 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.22943
+SIGUSR2 |  | Sent 87 Received 170 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.225465
+
+SIGUSR1 |  | Sent 82 Received 162 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.244668
+SIGUSR2 |  | Sent 91 Received 178 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.23752
+
+SIGUSR1 |  | Sent 86 Received 170 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.255599
+SIGUSR2 |  | Sent 98 Received 190 | Current Time Wed Apr 20 16:31:01 2022
+ | Avg Between Signals 0.260732
+
+SIGUSR1 |  | Sent 91 Received 180 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.172809
+SIGUSR2 |  | Sent 103 Received 199 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.177889
+
+SIGUSR1 |  | Sent 96 Received 190 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.19293
+SIGUSR2 |  | Sent 108 Received 210 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.192854
+
+SIGUSR1 |  | Sent 102 Received 202 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.203777
+SIGUSR2 |  | Sent 112 Received 218 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.204807
+
+SIGUSR1 |  | Sent 107 Received 212 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.223957
+SIGUSR2 |  | Sent 117 Received 228 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.22003
+
+SIGUSR1 |  | Sent 114 Received 226 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.236131
+SIGUSR2 |  | Sent 120 Received 234 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.241047
+
+SIGUSR1 |  | Sent 118 Received 234 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.16507
+SIGUSR2 |  | Sent 126 Received 246 | Current Time Wed Apr 20 16:31:02 2022
+ | Avg Between Signals 0.257039
+
+SIGUSR1 |  | Sent 125 Received 246 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.182319
+SIGUSR2 |  | Sent 129 Received 252 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.181129
+
+SIGUSR1 |  | Sent 130 Received 258 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.205289
+SIGUSR2 |  | Sent 134 Received 262 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.201207
+
+SIGUSR1 |  | Sent 135 Received 268 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.216425
+SIGUSR2 |  | Sent 139 Received 271 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.220346
+
+SIGUSR1 |  | Sent 142 Received 282 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.231417
+SIGUSR2 |  | Sent 142 Received 278 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.232404
+
+SIGUSR1 |  | Sent 148 Received 294 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.254546
+SIGUSR2 |  | Sent 146 Received 286 | Current Time Wed Apr 20 16:31:03 2022
+ | Avg Between Signals 0.252485
+
+SIGUSR1 |  | Sent 151 Received 300 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.173568
+SIGUSR2 |  | Sent 153 Received 299 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.175628
+
+SIGUSR1 |  | Sent 155 Received 308 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.195699
+SIGUSR2 |  | Sent 159 Received 312 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.194689
+
+SIGUSR1 |  | Sent 160 Received 318 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.215787
+SIGUSR2 |  | Sent 164 Received 321 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.216747
+
+SIGUSR1 |  | Sent 163 Received 324 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.229831
+SIGUSR2 |  | Sent 171 Received 336 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.237882
+
+SIGUSR1 |  | Sent 168 Received 333 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.255864
+SIGUSR2 |  | Sent 176 Received 346 | Current Time Wed Apr 20 16:31:04 2022
+ | Avg Between Signals 0.251938
+
+SIGUSR1 |  | Sent 175 Received 348 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.171999
+SIGUSR2 |  | Sent 179 Received 352 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.165936
+
+SIGUSR1 |  | Sent 178 Received 354 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.186011
+SIGUSR2 |  | Sent 186 Received 365 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.192032
+
+SIGUSR1 |  | Sent 183 Received 364 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.203129
+SIGUSR2 |  | Sent 191 Received 375 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.205146
+
+SIGUSR1 |  | Sent 190 Received 378 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.223254
+SIGUSR2 |  | Sent 194 Received 382 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.22624
+
+SIGUSR1 |  | Sent 194 Received 386 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.240306
+SIGUSR2 |  | Sent 200 Received 394 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.248279
+
+SIGUSR1 |  | Sent 198 Received 394 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.262353
+SIGUSR2 |  | Sent 206 Received 406 | Current Time Wed Apr 20 16:31:05 2022
+ | Avg Between Signals 0.259401
+
+SIGUSR1 |  | Sent 203 Received 404 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.184442
+SIGUSR2 |  | Sent 212 Received 418 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.179393
+
+SIGUSR1 |  | Sent 206 Received 410 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.198522
+SIGUSR2 |  | Sent 218 Received 428 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.201544
+
+SIGUSR1 |  | Sent 210 Received 418 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.212535
+SIGUSR2 |  | Sent 224 Received 441 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.218627
+
+SIGUSR1 |  | Sent 218 Received 432 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.236659
+SIGUSR2 |  | Sent 227 Received 448 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.234685
+
+SIGUSR1 |  | Sent 220 Received 437 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.255728
+SIGUSR2 |  | Sent 235 Received 463 | Current Time Wed Apr 20 16:31:06 2022
+ | Avg Between Signals 0.256759
+
+SIGUSR1 |  | Sent 226 Received 449 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.169814
+SIGUSR2 |  | Sent 239 Received 472 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.169801
+
+SIGUSR1 |  | Sent 232 Received 461 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.190905
+SIGUSR2 |  | Sent 243 Received 480 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.187891
+
+SIGUSR1 |  | Sent 242 Received 480 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.208031
+SIGUSR2 |  | Sent 243 Received 480 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.187891
+
+SIGUSR1 |  | Sent 246 Received 489 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.229046
+SIGUSR2 |  | Sent 249 Received 492 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.224079
+
+SIGUSR1 |  | Sent 250 Received 497 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.237132
+SIGUSR2 |  | Sent 255 Received 503 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.239071
+
+SIGUSR1 |  | Sent 255 Received 507 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.255115
+SIGUSR2 |  | Sent 260 Received 513 | Current Time Wed Apr 20 16:31:07 2022
+ | Avg Between Signals 0.259156
+
+SIGUSR1 |  | Sent 258 Received 513 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.177224
+SIGUSR2 |  | Sent 267 Received 527 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.177227
+
+SIGUSR1 |  | Sent 261 Received 519 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.189241
+SIGUSR2 |  | Sent 274 Received 539 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.190261
+
+SIGUSR1 |  | Sent 262 Received 521 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.208333
+SIGUSR2 |  | Sent 283 Received 559 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.215367
+
+SIGUSR1 |  | Sent 267 Received 531 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.234478
+SIGUSR2 |  | Sent 288 Received 569 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.23541
+
+SIGUSR1 |  | Sent 271 Received 539 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.245466
+SIGUSR2 |  | Sent 294 Received 579 | Current Time Wed Apr 20 16:31:08 2022
+ | Avg Between Signals 0.25246
+
+SIGUSR1 |  | Sent 276 Received 547 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.178574
+SIGUSR2 |  | Sent 300 Received 591 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.169548
+
+SIGUSR1 |  | Sent 283 Received 563 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.193789
+SIGUSR2 |  | Sent 303 Received 597 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.190717
+
+SIGUSR1 |  | Sent 288 Received 573 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.21786
+SIGUSR2 |  | Sent 308 Received 607 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.216841
+
+SIGUSR1 |  | Sent 290 Received 577 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.228863
+SIGUSR2 |  | Sent 316 Received 623 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.232902
+
+SIGUSR1 |  | Sent 293 Received 583 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.257872
+SIGUSR2 |  | Sent 323 Received 636 | Current Time Wed Apr 20 16:31:09 2022
+ | Avg Between Signals 0.258973
+
+SIGUSR1 |  | Sent 298 Received 593 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.172045
+SIGUSR2 |  | Sent 328 Received 645 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.17707
+
+SIGUSR1 |  | Sent 301 Received 599 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.194106
+SIGUSR2 |  | Sent 335 Received 660 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.196144
+
+SIGUSR1 |  | Sent 304 Received 605 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.209092
+SIGUSR2 |  | Sent 342 Received 675 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.211228
+
+SIGUSR1 |  | Sent 312 Received 621 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.228267
+SIGUSR2 |  | Sent 344 Received 678 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.229182
+
+SIGUSR1 |  | Sent 316 Received 629 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.248366
+SIGUSR2 |  | Sent 350 Received 691 | Current Time Wed Apr 20 16:31:10 2022
+ | Avg Between Signals 0.250319
+
+SIGUSR1 |  | Sent 320 Received 637 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.167443
+SIGUSR2 |  | Sent 356 Received 703 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.173394
+
+SIGUSR1 |  | Sent 325 Received 647 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.192406
+SIGUSR2 |  | Sent 361 Received 713 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.188472
+
+SIGUSR1 |  | Sent 332 Received 660 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.21256
+SIGUSR2 |  | Sent 364 Received 719 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.206553
+
+SIGUSR1 |  | Sent 338 Received 673 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.227548
+SIGUSR2 |  | Sent 368 Received 727 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.22058
+
+SIGUSR1 |  | Sent 343 Received 683 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.244874
+SIGUSR2 |  | Sent 373 Received 737 | Current Time Wed Apr 20 16:31:11 2022
+ | Avg Between Signals 0.248894
+
+SIGUSR1 |  | Sent 348 Received 693 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.165948
+SIGUSR2 |  | Sent 378 Received 745 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.166665
+
+SIGUSR1 |  | Sent 352 Received 701 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.182998
+SIGUSR2 |  | Sent 384 Received 759 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.183782
+
+SIGUSR1 |  | Sent 358 Received 713 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.199121
+SIGUSR2 |  | Sent 388 Received 767 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.203864
+
+SIGUSR1 |  | Sent 362 Received 721 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.22494
+SIGUSR2 |  | Sent 394 Received 779 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.219938
+
+SIGUSR1 |  | Sent 365 Received 727 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.242249
+SIGUSR2 |  | Sent 401 Received 793 | Current Time Wed Apr 20 16:31:12 2022
+ | Avg Between Signals 0.247997
+
+SIGUSR1 |  | Sent 369 Received 735 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.168107
+SIGUSR2 |  | Sent 407 Received 805 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.170316
+
+SIGUSR1 |  | Sent 373 Received 743 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.186396
+SIGUSR2 |  | Sent 413 Received 817 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.186198
+
+SIGUSR1 |  | Sent 376 Received 749 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.207439
+SIGUSR2 |  | Sent 420 Received 831 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.208269
+
+SIGUSR1 |  | Sent 382 Received 761 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.227337
+SIGUSR2 |  | Sent 424 Received 839 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.227265
+
+SIGUSR1 |  | Sent 385 Received 767 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.239574
+SIGUSR2 |  | Sent 431 Received 853 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.242604
+
+SIGUSR1 |  | Sent 391 Received 779 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.263499
+SIGUSR2 |  | Sent 435 Received 861 | Current Time Wed Apr 20 16:31:13 2022
+ | Avg Between Signals 0.261378
+
+SIGUSR1 |  | Sent 395 Received 787 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.178733
+SIGUSR2 |  | Sent 441 Received 873 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.180431
+
+SIGUSR1 |  | Sent 400 Received 797 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.19982
+SIGUSR2 |  | Sent 446 Received 883 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.200537
+
+SIGUSR1 |  | Sent 404 Received 805 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.212675
+SIGUSR2 |  | Sent 452 Received 895 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.210919
+
+SIGUSR1 |  | Sent 412 Received 821 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.230817
+SIGUSR2 |  | Sent 454 Received 899 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.223732
+
+SIGUSR1 |  | Sent 416 Received 829 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.253021
+SIGUSR2 |  | Sent 460 Received 911 | Current Time Wed Apr 20 16:31:14 2022
+ | Avg Between Signals 0.251773
+
+SIGUSR1 |  | Sent 419 Received 835 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.174111
+SIGUSR2 |  | Sent 467 Received 925 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.17098
+
+SIGUSR1 |  | Sent 426 Received 848 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.192186
+SIGUSR2 |  | Sent 470 Received 931 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.183138
+
+SIGUSR1 |  | Sent 432 Received 861 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.214121
+SIGUSR2 |  | Sent 474 Received 939 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.205082
+
+SIGUSR1 |  | Sent 438 Received 873 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.227414
+SIGUSR2 |  | Sent 478 Received 946 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.229165
+
+SIGUSR1 |  | Sent 441 Received 879 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.236225
+SIGUSR2 |  | Sent 485 Received 959 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.244276
+
+SIGUSR1 |  | Sent 449 Received 895 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.256367
+SIGUSR2 |  | Sent 487 Received 965 | Current Time Wed Apr 20 16:31:15 2022
+ | Avg Between Signals 0.255575
+
+SIGUSR1 |  | Sent 456 Received 909 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.173619
+SIGUSR2 |  | Sent 490 Received 971 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.177175
+
+SIGUSR1 |  | Sent 461 Received 918 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.195578
+SIGUSR2 |  | Sent 495 Received 981 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.191547
+
+SIGUSR1 |  | Sent 463 Received 923 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.205303
+SIGUSR2 |  | Sent 503 Received 996 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.212759
+
+SIGUSR1 |  | Sent 469 Received 935 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.229834
+SIGUSR2 |  | Sent 507 Received 1005 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.232702
+
+SIGUSR1 |  | Sent 477 Received 951 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.251482
+SIGUSR2 |  | Sent 509 Received 1009 | Current Time Wed Apr 20 16:31:16 2022
+ | Avg Between Signals 0.242733
+
+SIGUSR1 |  | Sent 483 Received 963 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.262945
+SIGUSR2 |  | Sent 513 Received 1016 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.168529
+
+SIGUSR1 |  | Sent 488 Received 973 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.186036
+SIGUSR2 |  | Sent 518 Received 1027 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.184901
+
+SIGUSR1 |  | Sent 491 Received 979 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.19711
+SIGUSR2 |  | Sent 525 Received 1040 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.203647
+
+SIGUSR1 |  | Sent 497 Received 991 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.222253
+SIGUSR2 |  | Sent 529 Received 1049 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.221223
+
+SIGUSR1 |  | Sent 501 Received 997 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.238113
+SIGUSR2 |  | Sent 535 Received 1061 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.237278
+
+SIGUSR1 |  | Sent 508 Received 1013 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.259833
+SIGUSR2 |  | Sent 538 Received 1067 | Current Time Wed Apr 20 16:31:17 2022
+ | Avg Between Signals 0.247771
+
+SIGUSR1 |  | Sent 513 Received 1023 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.17323
+SIGUSR2 |  | Sent 543 Received 1077 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.177255
+
+SIGUSR1 |  | Sent 519 Received 1035 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.188971
+SIGUSR2 |  | Sent 547 Received 1085 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.193467
+
+SIGUSR1 |  | Sent 525 Received 1047 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.214535
+SIGUSR2 |  | Sent 551 Received 1093 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.213068
+
+SIGUSR1 |  | Sent 528 Received 1052 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.234581
+SIGUSR2 |  | Sent 558 Received 1107 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.229433
+
+SIGUSR1 |  | Sent 533 Received 1063 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.259605
+SIGUSR2 |  | Sent 563 Received 1117 | Current Time Wed Apr 20 16:31:18 2022
+ | Avg Between Signals 0.254212
+
+SIGUSR1 |  | Sent 536 Received 1069 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.172645
+SIGUSR2 |  | Sent 570 Received 1130 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.177764
+
+SIGUSR1 |  | Sent 542 Received 1081 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.196848
+SIGUSR2 |  | Sent 574 Received 1139 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.193308
+
+SIGUSR1 |  | Sent 549 Received 1095 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.212395
+SIGUSR2 |  | Sent 577 Received 1143 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.212772
+
+SIGUSR1 |  | Sent 555 Received 1107 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.22442
+SIGUSR2 |  | Sent 581 Received 1151 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.227909
+
+SIGUSR1 |  | Sent 562 Received 1119 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.240946
+SIGUSR2 |  | Sent 584 Received 1159 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.239481
+
+SIGUSR1 |  | Sent 567 Received 1131 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.260989
+SIGUSR2 |  | Sent 589 Received 1169 | Current Time Wed Apr 20 16:31:19 2022
+ | Avg Between Signals 0.256175
+
+SIGUSR1 |  | Sent 569 Received 1135 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.170057
+SIGUSR2 |  | Sent 597 Received 1183 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.180226
+
+SIGUSR1 |  | Sent 575 Received 1147 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.197283
+SIGUSR2 |  | Sent 601 Received 1191 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.199282
+
+SIGUSR1 |  | Sent 581 Received 1159 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.215377
+SIGUSR2 |  | Sent 605 Received 1201 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.214354
+
+SIGUSR1 |  | Sent 588 Received 1173 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.231521
+SIGUSR2 |  | Sent 608 Received 1207 | Current Time Wed Apr 20 16:31:20 2022
+ | Avg Between Signals 0.234281
+
